@@ -1,6 +1,6 @@
 var should = require('chai').should(),
-    scapegoat = require('../index'),
-    verify = scapegoat.verify;
+    namedparam = require('../index'),
+    verify = namedparam.verify;
 
 describe('#verify', function() {
   it('uses defaults', function() {
