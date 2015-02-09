@@ -4,7 +4,7 @@
   "description": "utility to verify JS object parameters, check on required values, set default values for optionals",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/ --reporter spec --check-leaks --bail --no-exit"
+    "test": "mocha --ui bdd --recursive --reporter spec --timeout 10000 --slow 300"
   },
   "author": "Jeroen Verellen",
   "license": "ISC",
