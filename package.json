@@ -11,6 +11,10 @@
   "dependencies": {
     "underscore": "^1.7.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/npm/npm.git"
+  },
   "devDependencies": {
     "chai": "^1.10.0",
     "mocha": "^2.1.0"
